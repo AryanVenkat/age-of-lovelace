@@ -34,7 +34,7 @@ Before you start, ensure you have the following prerequisites:
 
 - Node.js and npm installed for the frontend.
 - Java and Spring Boot for the backend.
-- A database to store user data and tech event information.
+- PostgreSQL database to store user data and tech event information.
 
 ### Installation
 
