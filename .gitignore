@@ -1,2 +1,30 @@
 /lovelace-ui/node_modules/
 .env
+
+# Gradle files
+.gradle/
+build/
+.gradle.kts/
+*.iml
+
+# IDE-specific files (IntelliJ IDEA)
+.idea/
+
+# Eclipse
+.settings/
+.project
+.classpath
+.buildpath
+
+# Compiled Gradle Plugins and Scripts
+buildSrc/build/
+buildSrc/.gradle/
+
+# Gradle wrapper
+gradle/wrapper/gradle-wrapper.jar
+gradle/wrapper/gradle-wrapper.properties
+
+# Compiled Gradle Plugins and Scripts
+buildSrc/build/
+buildSrc/.gradle/
+
