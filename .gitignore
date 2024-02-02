@@ -9,6 +9,7 @@ build/
 
 # IDE-specific files (IntelliJ IDEA)
 .idea/
+.vscode
 
 # Eclipse
 .settings/
