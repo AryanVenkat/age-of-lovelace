@@ -4,7 +4,7 @@ html {
   margin: 0;
   padding: 0;
   font-family: "Poppins", sans-serif; /* Assuming Poppins is used for a modern look */
-  background-color: #fafafa; /* Light background for the whole page */
+  background-color: #f7f0dd; /* Light background for the whole page */
 }
 
 .App-header {
@@ -66,4 +66,44 @@ h1 {
 }
 
 .Learn-more:hover {
+}
+
+.registration-container {
+  display: flex;
+  justify-content: center;
+  align-items: stretch; /* Ensures the image matches the form's height */
+}
+
+.form-container {
+  flex: 1;
+  padding: 20px;
+}
+
+.image-container img {
+  width: 100%; /* Ensures the image fills the container */
+  height: 100%; /* Adjust height based on form size */
+  object-fit: cover; /* Adjusts the image's display */
+}
+
+.App {
+  text-align: center;
+  background-color: #f7f0dd; /* Light background for the whole page */
+}
+
+.App-header {
+  /* Styles that center content */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f7f0dd; /* Light background for the whole page */
+}
+
+/* App.css */
+.centered-content {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }

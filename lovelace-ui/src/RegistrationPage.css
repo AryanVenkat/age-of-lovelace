@@ -1,0 +1,54 @@
+/* RegistrationPage.css */
+.registration-page {
+  display: flex;
+  justify-content: center;
+  align-items: start; /* Align items at the start of the container */
+  padding: 20px;
+}
+
+.form-container {
+  flex: 1;
+  max-width: 30%; /* Reduce the max-width to give more space to the image */
+}
+
+.image-container {
+  flex: 1;
+  max-width: 30%; /* Adjust based on the desired size of the image */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container img {
+  width: 100%; /* Adjust as necessary */
+  height: auto;
+  object-fit: cover;
+}
+
+.form-field {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+label {
+  margin-right: 10px;
+  flex-basis: 30%; /* Adjust label width here */
+}
+
+input[type="text"],
+select {
+  flex-grow: 1;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.submit-button {
+  padding: 10px 20px; /* Adjust padding as needed */
+  background-color: #a855f7;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
