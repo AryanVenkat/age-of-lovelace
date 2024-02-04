@@ -1,8 +1,10 @@
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import HomePage from './HomePage'; // Import HomePage
-import RegistrationPage from './RegistrationPage'; // Make sure the path matches where your RegistrationPage component is located
-import './App.css';
+import React from "react";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import HomePage from "./HomePage"; // Import HomePage
+import RegistrationPage from "./RegistrationPage"; // Make sure the path matches where your RegistrationPage component is located
+import TimelinePage from "./TimelinePage";
+import TypingAnimation from "./TypingAnimation";
+import "./App.css";
 
 function App() {
   return (
@@ -19,7 +21,9 @@ function App() {
         </header>
         <Routes>
           <Route path="/" element={<HomePage />} exact />
+          <Route path="/timeline" element={<TimelinePage />} />
           <Route path="/register" element={<RegistrationPage />} />
+
           {/* Add more routes as needed */}
         </Routes>
       </div>

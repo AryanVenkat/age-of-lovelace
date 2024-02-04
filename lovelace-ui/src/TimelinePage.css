@@ -1,0 +1,114 @@
+/* TimelinePage.css */
+
+.timeline-page {
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Distribute content evenly between sections */
+  align-items: flex-start; /* Align items vertically at the top of each section */
+  padding: 20px; /* Add padding for spacing */
+  max-width: 100%;
+  position: relative;
+}
+
+.timeline-left,
+.timeline-center,
+.timeline-right {
+  display: flex; /* Use flexbox for the center section */
+  flex-direction: column; /* Stack items vertically within each section */
+  flex: 1; /* Each section takes equal width */
+  text-align: center; /* Center-align text within each section */
+}
+
+.timeline-center {
+  justify-content: space-between; /* Push year to the middle */
+  margin-top: 10%;
+}
+
+.timeline-left {
+  margin-right: 0px; /* Add margin to separate sections */
+}
+
+.timeline-left span {
+  max-width: 400px;
+}
+
+.timeline-right {
+  margin-left: 0px; /* Add margin to separate sections */
+}
+
+.timeline-right span {
+  max-width: 400px;
+}
+
+/* Style images and text within each section as needed */
+.timeline-left img,
+.timeline-right img {
+  max-width: 75%; /* Ensure images don't exceed the section width */
+  height: auto; /* Automatically adjust the height while maintaining aspect ratio */
+  max-height: 200px; /* Set a maximum height for the images (adjust as needed) */
+  display: block; /* Ensure the image is displayed as a block element */
+  margin: 0 auto; /* Center the image horizontally within its container */
+}
+
+.timeline-center h2 {
+  font-size: 24px; /* Adjust font size for the year */
+  margin-top: auto; /* Push year to the middle */
+}
+
+/* Text typing animation */
+
+/* TypingAnimation.css */
+
+.typing-animation {
+  max-width: 200px; /* Set your desired max-width */
+  word-wrap: break-word; /* Allow text to wrap to the next line */
+  white-space: pre-line; /* Preserve line breaks */
+  overflow: hidden; /* Hide overflow text */
+  border-right: 2px solid #000; /* Add a typing cursor effect */
+  animation: typing 0.2s steps(90, end), blink-caret 0.2s step-end infinite; /* Adjust the steps here for faster typing */
+}
+
+@keyframes typing {
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #000;
+  }
+}
+
+.previous-button {
+  /* Style for the Previous button */
+  background-color: #a855f7; /* Blue color for the button */
+  color: #fff; /* Text color */
+  border: none;
+  padding: 10px 20px; /* Adjust padding as needed */
+  margin: 0 10px; /* Add some margin for spacing */
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 16px;
+  position: absolute;
+  bottom: 20px; /* Adjust the vertical position */
+  left: 10px; /* Adjust the horizontal position */
+}
+
+.next-button {
+  /* Style for the Next button */
+  background-color: #a855f7; /* Blue color for the button */
+  color: #fff; /* Text color */
+  border: none;
+  padding: 10px 20px; /* Adjust padding as needed */
+  margin: 0 10px; /* Add some margin for spacing */
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 16px;
+  position: absolute;
+  bottom: 20px; /* Adjust the vertical position */
+  right: 10px; /* Adjust the horizontal position */
+}

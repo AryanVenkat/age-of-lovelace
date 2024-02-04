@@ -1,0 +1,37 @@
+[
+  {
+    "year": 1991,
+    "lifeEventNarrative": "In a world freshly unfurling before your eyes, your first breath is a whisper of promise, a dawn of endless possibilities.",
+    "lifeEventImageUrl": "images/infant.png",
+    "techEventNarrative": "The same year you were born, the World Wide Web started, connecting computers all over the world like never before.",
+    "techEventImageUrl": "images/worldwideweb.png"
+  },
+  {
+    "year": 1998,
+    "lifeEventNarrative": "With the turn of seasons, five candles illuminate your cake, marking the gateway to a realm of letters and numbers, a journey through the enchanted halls of knowledge.",
+    "lifeEventImageUrl": "images/schoolboy.png",
+    "techEventNarrative": "In 1998, Google was launched, revolutionizing the way information is accessed and organized online. This marked the beginning of Google's journey to become one of the most influential companies in the tech industry and the world.",
+    "techEventImageUrl": "images/google.png"
+  },
+  {
+    "year": 2006,
+    "lifeEventNarrative": "Fifteen years woven into the tapestry of time, high school's halls beckon, a stage for dreams, dramas, and discoveries, each moment a step towards the person you're meant to become.",
+    "lifeEventImageUrl": "images/teenager.png",
+    "techEventNarrative": "At fifteen, the world got Twitter, a new way to share thoughts instantly with the world in just a few characters.",
+    "techEventImageUrl": "images/twitter.png"
+  },
+  {
+    "year": 2014,
+    "lifeEventNarrative": "At the cusp of adulthood, twenty-three years in your story, the pomp and circumstance of graduation are but a prologue to the grand adventure of life beyond the classroom's confines.",
+    "lifeEventImageUrl": "images/adulthood.png",
+    "techEventNarrative": "As you ventured into adulthood, Alexa was launched, making it possible to talk to your home and control it with your voice.",
+    "techEventImageUrl": "images/alexa.png"
+  },
+  {
+    "year": 2023,
+    "lifeEventNarrative": "The dawn of your thirties, a reflection in still water, amidst the journey's ebb and flow, you find your stride, carving paths through the forest of dreams, each step a testament to the miles you've come.",
+    "lifeEventImageUrl": "images/adulthood.png",
+    "techEventNarrative": "2023 is the year of AI! Generative AI has taken the world by storm. It will be great if you focus on learning and upgrading your skills in this fast changing world",
+    "techEventImageUrl": "images/generativeai.jpg"
+  }
+]

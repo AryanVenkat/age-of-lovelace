@@ -5,7 +5,7 @@ FROM openjdk:17-jdk
 WORKDIR /app
 
 # Copy the application JAR file
-COPY build/libs/AgeOfLovelace-0.1.jar ageoflovelace.jar
+COPY build/libs/lovelace-api-0.1.jar ageoflovelace.jar
 
 # Expose the application port (8080 by default for Spring Boot)
 EXPOSE 8080
